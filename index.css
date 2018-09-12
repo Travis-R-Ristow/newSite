@@ -1,0 +1,54 @@
+:root {
+    --main-color: rbg(102, 204, 255);
+    --sub-color: rbg(153, 255, 102);
+}
+
+
+body{
+	margin: 0;
+}
+canvas{
+	width: 100%;
+}
+
+#wrapper{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 0;
+
+
+}
+	#wrapper h1{
+		/*position: fixed;*/
+		font-size: 7vw;
+		width: fit-content;
+		margin: auto;
+		text-shadow: 0.2vw 0.2vw white;
+		/*padding: 3vw;
+		padding-left: 7vw;
+		padding-right: 7vw;
+		background-color: rgba(153, 255, 102,0.75);
+		border-top-left-radius: 15vw;
+		border-top-right-radius: 15vw;
+		border: 0.25vw solid black;
+		border-bottom: none;*/
+	}
+	#wrapper #stuff{
+		margin: auto;
+		width: 90%;
+		border: 0.25vw solid black;
+		background-color: rgba(153, 255, 102,0.75);
+	}
+		#wrapper #stuff h2{
+			font-size: 3vw;
+			margin: auto;
+		}
+
+		#stuff .block {
+			width:30%;
+			display: inline-block;
+		}
+			#stuff .block img {
+				width: 100%;
+			}
