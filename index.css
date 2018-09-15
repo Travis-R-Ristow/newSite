@@ -48,7 +48,24 @@ canvas{
 		#stuff .block {
 			width:30%;
 			display: inline-block;
+			padding: 1vw;
+			background: rgba(102, 204, 255,0.5);
+			border: 3vw solid var(--sub-color);
 		}
 			#stuff .block img {
 				width: 100%;
+			}
+
+		#skills{
+			margin: auto;
+			width: 80%;
+			border: 0.25vw solid black;
+			border-radius: 7vw;
+			background-color: rgba(153, 255, 102,0.75);
+			margin-bottom: 3vw;
+		}
+
+			#skills .gauge {
+				border-radius: 100%;
+				border: 1vw solid black;
 			}
