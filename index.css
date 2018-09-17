@@ -3,11 +3,14 @@
     --sub-color: rbg(153, 255, 102);
 }
 
-
+html{
+	background-color: white;
+}
 body{
 	margin: 0;
 }
 canvas{
+	position: fixed;
 	width: 100%;
 }
 
@@ -63,9 +66,76 @@ canvas{
 			border-radius: 7vw;
 			background-color: rgba(153, 255, 102,0.75);
 			margin-bottom: 3vw;
+			overflow:hidden;
 		}
-
-			#skills .gauge {
-				border-radius: 100%;
-				border: 1vw solid black;
+			#skills h2{
+				color: white;
+				background-color: rgba(0,0,0,0.75);
+				margin: auto;
+				padding: 1.3vw;
+				padding-bottom: 0;
+				font-size: 5vw;
+				text-decoration: underline; 
 			}
+			#skills p{
+				color: white;
+				background-color: rgba(0,0,0,0.75);
+				margin: auto;
+				padding: 1.3vw;
+				padding-top: 0;
+				font-size: 1.5vw;
+				text-align: right;
+				padding-right: 10vw;
+				margin-bottom: 5px;
+			}
+			.skil {
+
+				display: inline-block;
+				padding: 0;
+				border-radius: 100%;
+				margin-right: 3vw;
+			}
+			#skills .gauge{
+				width: 20%;
+				margin-right: 3vw;
+			}
+				.gauge .cir{
+					stroke-linecap: round;
+					stroke-width: 0.2vw;
+				  	animation: progress 3s ease-in-out forwards;
+				}
+						@keyframes progress {
+						  0% {
+						    stroke-dasharray: 0 100;
+						  }
+						}
+				.percentage{
+  					text-anchor: middle;
+				}
+				.pTitle{
+					font-weight: bolder;
+					text-decoration: underline;
+  					text-anchor: middle;
+				}
+
+				svg{
+					
+				}
+					#py{
+						border-radius: 100%; 
+						background: url(https://i.ebayimg.com/images/g/n60AAOSwUfNXRuqd/s-l300.jpg);
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+
+
+
+
+
+			/*#skills .gauge {
+				padding:1vw;
+				margin:1vw;
+				width: fit-content;
+				border-radius: 100%;
+				border: 0.25vw solid black;
+			}*/
