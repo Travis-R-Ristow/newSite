@@ -22,6 +22,20 @@ canvas{
 
 
 }
+	#cMe {
+		background-color: silver;
+		text-align: right;
+		padding: 1vw;
+		padding-top: 0.5vw;
+		padding-bottom: 0.5vw;
+	}
+		#cMe p{
+			display: inline-block;
+			margin: 0;
+			padding-right: 1vw;
+			letter-spacing: 1px;
+		}
+
 	#wrapper h1{
 		/*position: fixed;*/
 		font-size: 7vw;
@@ -49,7 +63,7 @@ canvas{
 		}
 
 		#stuff .block {
-			width:30%;
+			width:25%;
 			display: inline-block;
 			padding: 1vw;
 			background: rgba(102, 204, 255,0.5);
@@ -127,15 +141,3 @@ canvas{
 						background-repeat: no-repeat;
 						background-size: cover;
 					}
-
-
-
-
-
-			/*#skills .gauge {
-				padding:1vw;
-				margin:1vw;
-				width: fit-content;
-				border-radius: 100%;
-				border: 0.25vw solid black;
-			}*/
