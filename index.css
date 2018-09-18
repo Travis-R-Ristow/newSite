@@ -91,7 +91,7 @@ canvas{
 				font-size: 5vw;
 				text-decoration: underline; 
 			}
-			#skills p{
+			#skills #sub{
 				color: white;
 				background-color: rgba(0,0,0,0.75);
 				margin: auto;
@@ -102,27 +102,38 @@ canvas{
 				padding-right: 10vw;
 				margin-bottom: 5px;
 			}
-			.skil {
+			/*.skil {
 
 				display: inline-block;
 				padding: 0;
 				border-radius: 100%;
 				margin-right: 3vw;
-			}
+			}*/
 			#skills .gauge{
 				width: 20%;
 				margin-right: 3vw;
 			}
+				.popUp{
+					position: absolute;
+					display: none;
+					background-color: rgba(0,0,0,0.75);
+					color: white;
+					margin: 0;
+					padding: 1vw;
+					padding-top: 0.5vw;
+					padding-bottom: 0.5vw;
+					font-size: 1vw;
+				}
 				.gauge .cir{
 					stroke-linecap: round;
 					stroke-width: 0.2vw;
 				  	animation: progress 3s ease-in-out forwards;
 				}
-						@keyframes progress {
-						  0% {
-						    stroke-dasharray: 0 100;
-						  }
-						}
+					@keyframes progress {
+					  0% {
+					    stroke-dasharray: 0 100;
+					  }
+					}
 				.percentage{
   					text-anchor: middle;
 				}
