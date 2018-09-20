@@ -109,13 +109,15 @@ canvas{
 				border-radius: 100%;
 				margin-right: 3vw;
 			}*/
-			#skills .gauge{
+			#skills .gauge, .html, .java, .py, .ruby, .js, .ps, .ui, .hw, .c, .cc{
 				width: 20%;
 				margin-right: 3vw;
+				display: inline-block;
 			}
 				.popUp{
 					position: absolute;
 					display: none;
+					/*display: inline-block;*/
 					background-color: rgba(0,0,0,0.75);
 					color: white;
 					margin: 0;
@@ -124,7 +126,8 @@ canvas{
 					padding-bottom: 0.5vw;
 					font-size: 1vw;
 				}
-				.gauge .cir{
+				/*.gauge .cir{*/
+				.html .cir, .java .cir, .py .cir, .ruby .cir, .js .cir, .ps .cir, .ui .cir, .hw .cir, .c .cir, .cc .cir{
 					stroke-linecap: round;
 					stroke-width: 0.2vw;
 				  	animation: progress 3s ease-in-out forwards;
